@@ -28,7 +28,7 @@ function App() {
     <div
             className="w-full h-screen flex flex-wrap justify-center items-center bg-cover bg-no-repeat"
             style={{
-                backgroundImage:`URL('https://www.pexels.com/photo/rolled-20-u-s-dollar-bill-164527/')`,
+                backgroundImage:`URL('https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg')`,
             }}
         >
             <div className="w-full">
@@ -45,8 +45,10 @@ function App() {
                                 label="From"
                                 amount={amount}
                                 currencyoptions={options}
-                                onCurrencychange={(amount) => setamount(amount)}
+                                onCurrencychange={(currency) => setamount(amount)}
+                                onAmountchange={(amount) => setamount(amount)}
                                 selectcurrency={from}
+
                             />
                         </div>
                         <div className="relative w-full h-0.5">
@@ -65,11 +67,12 @@ function App() {
                                 currencyoptions={options}
                                 onCurrencychange={(currency) => setto(currency)}
                                 selectcurrency={from}
+                                amountdisable
                                 
                             />
                         </div>
                         <button type="submit" className="w-full bg-blue-600 text-white px-4 py-3 rounded-lg">
-                            Convert 
+                            Convert {from.toUpperCase()} to {to.toUpperCase()}
                         </button>
                     </form>
                 </div>
