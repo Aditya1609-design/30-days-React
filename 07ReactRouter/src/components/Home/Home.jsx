@@ -34,12 +34,12 @@ function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
+                    <img className="w-96" src="https://imgs.search.brave.com/MF0GLDZxK794BYPSTpgaewKS10ITmtUegVVIWz0NLAE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/LmxpcHN1bWh1Yi5j/b20vd3AtY29udGVu/dC91cGxvYWRzLzIw/MjQvMDgvd2hhdC1p/cy10aGUtZnVsbC10/ZXh0LW9mLWxvcmVt/LWlwc3VtLWRvbG9y/LXNpdC1hbWV0LWxp/cHN1bWh1Yi5qcGc" alt="image1" />
                 </div>
             </aside>
 
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="https://i.ibb.co/2M7rtLk/Remote1.png" alt="image2" />
+                <img className="sm:w-96 w-48" src="https://imgs.search.brave.com/QTtwsKr-KoGtN6wLGXemRLgvo3a8uJp8uryegTTF1ec/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzA0LzYzLzY2/LzM2MF9GXzIwNDYz/NjY3MV9PdURjSzJW/VFphVVRpYlV4RFVT/WWVrN1FUS3FZTVZH/YS5qcGc" alt="image2" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Lorem Ipsum Yojo</h1>
