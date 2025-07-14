@@ -8,6 +8,7 @@ import Home from './components/Home/Home.jsx'
 import About from './components/About/About.jsx'
 import Contact from './components/Contact/Contact.jsx'
 import User from './components/User/User.jsx'
+import Github from './components/github/github.jsx'
 
 // Create router
 const router = createBrowserRouter([
@@ -16,6 +17,8 @@ const router = createBrowserRouter([
     element: <Layout />,
     children:[
       {
+        // jaisa jab ham api calls karte hai to mostly usi ke lia use kia jata hai ye , for more optimization is used and it is being used by a hook call useLoaderData()
+        loader:{},
         path: "",
         element: <Home />
       },
@@ -30,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "User/:userid",
         element: <User />
+      },
+      {
+        path: "Github",
+        element: <Github />
       }
     ]
   }
